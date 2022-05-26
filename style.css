@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Keyframes*/
+@keyframes rain_effect {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 400px 800px, 300px 300px, 200px 200px; background-color: turquoise;}
+100% {background-position: 0px 0px, 0px 0px, 0px 0px; background-color: #F8C8DC}
+}
+
+@-moz-keyframes rain_effect {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 400px 800px, 300px 300px, 200px 200px; background-color: turquoise}
+100% {background-position: 0px 0px, 0px 0px, 0px 0px; background-color: #F8C8DC}
+}
+
+@-webkit-keyframes rain_effect {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 400px 800px, 300px 300px, 200px 200px; background-color: turquoise}
+100% {background-position: 0px 0px, 0px 0px, 0px 0px; background-color: #F8C8DC}
+}
+
+@-ms-keyframes rain_effect {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 400px 800px, 300px 300px, 200px 200px; background-color: turquoise}
+100% {background-position: 0px 0px, 0px 0px, 0px 0px; background-color: #F8C8DC}
+}
+
+
+
+
+
+
+body {
+  background-color: navajowhite; 
+	background-image: url('blue-4925033_1280.png');
+	animation: rain_effect 40s linear infinite;
+	-webkit-animation: rain_effect 40s linear infinite;
+	-moz-animation: rain_effect 40s linear infinite;
+	-ms-animation: rain_effect 40s linear infinite;
+
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Yeon Sung', cursive;
+}
+
+.titlefont {
+  font-size: 0.7cm;
+}
+
+.titlesize {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Poor Story', cursive;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 0.5cm;
+}
